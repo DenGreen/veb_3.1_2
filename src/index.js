@@ -1,4 +1,4 @@
-class ErrorRepository {
+export class ErrorRepository {
     constructor(){
         this.map = new Map([
             [1, 'Описание ошибки 1 '],
