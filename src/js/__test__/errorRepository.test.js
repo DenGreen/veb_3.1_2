@@ -1,4 +1,4 @@
-import { ErrorRepository } from './index'
+import { ErrorRepository } from '../errorRepository'
 
 test('ErrorRepository должен выдовать строку "Описание ошибки 5"', () => {
     const expected = 'Описание ошибки 5 ';
